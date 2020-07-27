@@ -1,0 +1,41 @@
+body {
+border: 20px solid #bdc3c7;
+padding: 20px;
+max-width:700px;
+width: 80%;
+margin:20px auto;
+font-family:source sans pro;
+
+}
+
+.quote {
+border-left: 5px solid #bdc3c7;
+padding-left: 5px;
+
+}
+.date{
+color: #3498bd;
+text-transform: uppercase;
+letter-spacing:0.2rem
+}
+.post{
+margin-bottom:20px;
+}
+
+h2{
+color: #2c3e50;
+font-size: 2.0rem;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+
+date color: #3498bd
+h2 color #2c3e50
+
+font: source sams pro
