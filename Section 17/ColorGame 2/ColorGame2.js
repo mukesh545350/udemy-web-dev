@@ -16,14 +16,12 @@ for(var i = 0; i < squares.length; i++){
 
   squares[i].style.background = color[i];
   
-    squares[i].addEventListener("click", function(){
-    
-    var clickedColor = this.style.background;
-    
-    if(clickedColor === pickedColor){
-      alert("Correct!");
-    } else {
-      alert("WRONG!");
-    }
-  });
+   squares[i].addEventListener("click", function(){
+      var clickedColor = this.style.background;
+      if(clickedColor === pickedColor){
+        alert("Correct!");
+      } else {
+        alert("WRONG!!!");
+      }
+   });
 }
