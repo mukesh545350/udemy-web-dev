@@ -7,7 +7,7 @@ var color = [
   "rgb(255, 0, 255)",
 ]
 var squares = document.querySelectorAll(".square");
-var pickedColor = pickcolor();
+var pickedColor = pickColor();
 var colorDisplay = document.getElementById("colorDisplay");
 var messageDisplay = document.querySelector("#message");
 
@@ -36,7 +36,7 @@ function changeColors(color){
   }
 }
 
-function pickcolor(){
+function pickColor(){
   var random = Math.floor(math.random() * color.length);
   return color[random];
 }
