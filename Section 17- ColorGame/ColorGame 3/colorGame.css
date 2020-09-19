@@ -4,14 +4,14 @@ body {
 
 .square {
   width: 30%;
-  background: red;
+  background:purple;
   padding-bottom: 30%;
   float: left;
   margin: 1.66%;
 }
 
 #container {
-  margin: 0 auto;
+  margin: 0px auto;
   max-width: 600px;
 }
 
