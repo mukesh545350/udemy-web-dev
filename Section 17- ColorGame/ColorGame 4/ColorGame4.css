@@ -1,0 +1,24 @@
+.hero {
+  background-color: steelblue;
+  color: white;
+}
+
+body {
+  background-color: #232323;
+}
+
+.menu {
+  background-color: white;
+}
+
+.choice {
+  background-color: aqua;
+  width: 30%;
+  padding-bottom: 30%;
+  margin: 1.66%;
+  float: left;
+}
+
+.pickedColor {
+  text-transform: uppercase;
+}
